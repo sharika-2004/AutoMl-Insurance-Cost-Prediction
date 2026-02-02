@@ -55,7 +55,7 @@ The AutoML workflow includes:
 - Model comparison and tuning
 - Final model selection (Gradient Boosting Regressor)
 
-![AutoML Pipeline](screenshots/automl_result.png)
+![AutoML Pipeline](screenshot/pipeline.png)
 
 ---
 
@@ -67,8 +67,8 @@ Model performance was evaluated using:
 - R² Score
 - Residual analysis
 
-![Model Evaluation](screenshots/evaluation.png)  
-![Residual Plot](screenshots/residuals.png)
+![Model Evaluation](screenshot/automl_result.png)  
+![Residual Plot](screenshot/residuals.png)
 
 ---
 
@@ -76,7 +76,7 @@ Model performance was evaluated using:
 
 Feature importance analysis shows which factors influence insurance cost the most.
 
-![Feature Importance](screenshots/feature_importance.png)
+![Feature Importance](screenshot/feature_importance.png)
 
 **Key insights:**
 - Smoking status has the highest impact
@@ -89,7 +89,6 @@ Feature importance analysis shows which factors influence insurance cost the mos
 
 Predictions were generated and saved for further analysis.
 
-![Prediction Output](screenshots/display_prediction.png)
 
 **Output file:**
 insutrance_model_prediction.csv
@@ -103,7 +102,7 @@ Predicted values were integrated into Power BI to generate business insights suc
 - BMI vs Predicted Charges
 - Age vs Predicted Charges
 
-![Power BI Dashboard](screenshots/dataset_analysis.png)
+![Power BI Dashboard](screenshot/evaluation.png)
 
 ---
 
