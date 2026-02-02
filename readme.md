@@ -67,8 +67,7 @@ Model performance was evaluated using:
 - R² Score
 - Residual analysis
 
-![Model Evaluation](screenshot/automl_result.png)  
-![Residual Plot](screenshot/residuals.png)
+
 
 ---
 
@@ -76,7 +75,6 @@ Model performance was evaluated using:
 
 Feature importance analysis shows which factors influence insurance cost the most.
 
-![Feature Importance](screenshot/feature_importance.png)
 
 **Key insights:**
 - Smoking status has the highest impact
